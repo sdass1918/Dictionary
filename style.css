@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #973131;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #E0A75E;
+    border-radius: 1.3rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form input,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+#findWord {
+    margin-top: 1rem;
+}
+
+.select-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.msg-container {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+button {
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #F9D689;
+}
+
+button:hover {
+    box-shadow: 0px 2px 5px #F5E7B2;
+}
+
+.meaning {
+    padding-bottom: 2rem;
+}
+
+input {
+    background-color: #F5E7B2;
+}
+
+b{
+    display: inline;
+}
+
+.audio-msg {
+    padding-top: 1rem;
+}
+
+.audio-msg:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 45vw;
+    }
+    button{
+        font-size: 0.75rem;
+    }
+}
